@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background: dodgerblue;
+    display: flex;
+    min-height: 100vh;
+}
+.slider{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0 0 0 15px burlywood,
+                0 0 0 34px;
+}
+
+.slider img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.7s;
+    
+}
+.slider input[type="radio"]{
+    position:relative;
+    z-index: 50;  
+    margin: 10px;
+}
+
+.slider input[type="radio"]:checked ~ img {
+    opacity: 1;
+}
+
+.Menu{
+    background: skyblue;
+    align-content: center;
+    display: flex;
+    width: 100px;
+    height: 60px;
+
+}
+.cuadro{
+    empty-cells: hide;
+
+}
+
+.titulo
+{
+    
+   align-content: center;
+   width: 100px;
+   display: flex;
+
+}
+
+.Descripcion{
+    display: flex;
+    align-content: center;
+    nav-down: auto;
+    flex-direction: row;
+}
