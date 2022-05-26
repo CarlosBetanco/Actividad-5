@@ -3,6 +3,7 @@ body{
     background: dodgerblue;
     display: flex;
     min-height: 100vh;
+    font-family: "Century Gothic";
 }
 .slider{
     width: 500px;
